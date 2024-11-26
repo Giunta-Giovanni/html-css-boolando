@@ -5,12 +5,6 @@
 }
 
 /* general */
-a{
-    text-decoration: none;
-    color: white;
-}
-
-/* header */
 header{
     position: sticky;
     top: 0;
@@ -19,12 +13,27 @@ header{
     z-index: 1000;
 }
 
+footer{
+    background-color: black;
+    min-height: 80px;
+    color: white;
+}
+li{
+    list-style: none;
+    padding-right: 10px;
+
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+/* header */
 .menu{
     display: flex;
     justify-content:space-between;
     align-items: center;
     min-height: 50px;
-    position: relative;
 
 }
 
@@ -34,7 +43,6 @@ header{
 }
 
 .categorie > li {
-    list-style: none;
     padding-right: 10px;
 }
 
@@ -53,10 +61,7 @@ header{
     padding-left:10px;
 }
 
-footer{
-    background-color: black;
-    min-height: 80px;
-}
+
 
 .container{
     
@@ -118,9 +123,6 @@ footer{
 /* informazioni del prodotto sotto l'articolo  */
 .info-prodotto{
     margin-top: 5px;
-}
-
-.marca{
 }
 
 .name{
@@ -188,5 +190,28 @@ footer{
 
 .sostenibilita{
     background-color: green;
-    fon
+}
+
+/* footer */
+
+footer nav{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 80px
+}
+
+#societa{
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+.informativa{
+    display: flex;
+    font-size: 15px;
+}
+
+.canali{
+    margin-top: 5px;
+    padding:0 2px;
+    text-align: center;
 }
