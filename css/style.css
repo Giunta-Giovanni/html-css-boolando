@@ -26,22 +26,48 @@ footer{
 
 /* main */
 
+/* contenitore di centramento */
 #container-main{
+    margin: 20px auto;
+}
+
+/* parte dei prodotti */
+.product-list{
     display:flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    margin: 20px auto;
 }
+
 .articolo{
     width: 32%;
     margin:20px 0;
-
+    position: relative;
     /* debug */
     /* height: 500px; */
-    background-color: brown;
-
+    /* background-color: brown; */
 }
 
-.img-articolo{
+.vista{
+    max-width: 100%;
+    opacity: 1;
+}
+
+.vista:hover{
+    opacity: 0;
+}
+
+.coperta{
+    max-width: 100%;
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 20;
+}
+
+.coperta:hover{
+    opacity: 1;
     width: 100%;
 }
