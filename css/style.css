@@ -7,8 +7,11 @@
 /* general */
 
 header{
+    position: sticky;
+    top: 0;
     background-color: orange;
     min-height: 50px;
+    z-index: 1000;
 }
 
 footer{
@@ -20,7 +23,7 @@ footer{
     width: 80%;
     margin: 0 auto;
     /* debug */
-    background-color: blue;
+    /* background-color: blue; */
 }
 
 
@@ -71,3 +74,29 @@ footer{
     opacity: 1;
     width: 100%;
 }
+
+/* informazioni del prodotto sotto l'articolo  */
+.info-prodotto{
+    margin-top: 5px;
+}
+
+.marca{
+}
+
+.name{
+    font-size: 18px;
+}
+
+.price{
+    color: red;
+    font-weight: bold;
+}
+
+.old{
+    color: black;
+    text-decoration: line-through;
+    font-weight: lighter;
+
+}
+
+/* immagini tra i preferiti */
