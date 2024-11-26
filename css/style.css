@@ -5,19 +5,59 @@
 }
 
 /* general */
+a{
+    text-decoration: none;
+    color: white;
+}
 
+/* header */
 header{
     position: sticky;
     top: 0;
-    background-color: orange;
+    background-color: rgb(255, 106, 0);
     min-height: 50px;
     z-index: 1000;
+}
+
+.menu{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    min-height: 50px;
+    position: relative;
+
+}
+
+.categorie{
+    display: flex;
+    color: white;
+}
+
+.categorie > li {
+    list-style: none;
+    padding-right: 10px;
+}
+
+.categorie li a:hover {
+    color: blue;
+}
+
+/* logo */
+
+.logo img{
+    max-height: 30px;
+}
+
+/* area personale */
+.area-personale{
+    padding-left:10px;
 }
 
 footer{
     background-color: black;
     min-height: 80px;
 }
+
 .container{
     
     width: 80%;
@@ -37,7 +77,7 @@ footer{
 /* parte dei prodotti */
 .product-list{
     display:flex;
-    justify-content: space-around;
+    justify-content: space-between;
     flex-wrap: wrap;
 }
 
