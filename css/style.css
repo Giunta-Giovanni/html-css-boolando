@@ -3,3 +3,45 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* general */
+
+header{
+    background-color: orange;
+    min-height: 50px;
+}
+
+footer{
+    background-color: black;
+    min-height: 80px;
+}
+.container{
+    
+    width: 80%;
+    margin: 0 auto;
+    /* debug */
+    background-color: blue;
+}
+
+
+/* main */
+
+#container-main{
+    display:flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 20px auto;
+}
+.articolo{
+    width: 32%;
+    margin:20px 0;
+
+    /* debug */
+    /* height: 500px; */
+    background-color: brown;
+
+}
+
+.img-articolo{
+    width: 100%;
+}
