@@ -100,3 +100,30 @@ footer{
 }
 
 /* immagini tra i preferiti */
+.cuore{
+    background-color: white;
+    font-size: 35px;
+    padding:0px 10px; 
+    position: absolute;
+    top: 2;
+    right: 2;
+    z-index: 50;
+}
+
+.nero{
+    color: black;
+    opacity:1;
+}
+
+.nero:hover{
+    opacity: 0;
+}
+
+.rosso{
+    color: red;
+    opacity: 0;
+}
+
+.rosso:hover{
+    opacity: 1;
+}
