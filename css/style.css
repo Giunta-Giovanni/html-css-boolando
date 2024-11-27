@@ -5,19 +5,13 @@
 }
 
 /* general */
-header{
-    position: sticky;
-    top: 0;
-    background-color: rgb(255, 106, 0);
-    min-height: 50px;
-    z-index: 1000;
+.container{
+    width: 80%;
+    margin: 0 auto;
+    /* debug */
+    /* background-color: blue; */
 }
 
-footer{
-    background-color: black;
-    min-height: 80px;
-    color: white;
-}
 li{
     list-style: none;
     padding-right: 10px;
@@ -29,6 +23,15 @@ a{
 }
 
 /* header */
+
+header{
+    position: sticky;
+    top: 0;
+    background-color: rgb(255, 106, 0);
+    min-height: 50px;
+    z-index: 1000;
+}
+
 .menu{
     display: flex;
     justify-content:space-between;
@@ -60,17 +63,6 @@ a{
 .area-personale{
     padding-left:10px;
 }
-
-
-
-.container{
-    
-    width: 80%;
-    margin: 0 auto;
-    /* debug */
-    /* background-color: blue; */
-}
-
 
 /* main */
 
@@ -193,6 +185,11 @@ a{
 }
 
 /* footer */
+footer{
+    background-color: black;
+    min-height: 80px;
+    color: white;
+}
 
 footer nav{
     display:flex;
